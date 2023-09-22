@@ -1,4 +1,4 @@
-FROM FROM mcr.microsoft.com/devcontainers/universal:2
+FROM mcr.microsoft.com/devcontainers/universal:2
 
 # Install MariaDB client
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
